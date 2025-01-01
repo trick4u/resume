@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Sekharamantri - Senior Flutter Developer</title>
+    <style>
+        :root {
+            --primary-color: #2196F3;
+            --text-color: #333;
+            --background-color: #fff;
+            --section-spacing: 2rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: var(--background-color);
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: var(--section-spacing);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: var(--section-spacing);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            .experience-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tushar Sekharamantri</h1>
+            <p class="title">Senior Flutter Developer</p>
+            <div class="contact-info">
+                <p><a href="mailto:thinkbrain10@gmail.com">thinkbrain10@gmail.com</a> | <a href="tel:+919975768621">+91 9975768621</a></p>
+                <p>C- 225 New Minal Residency, J K Road, Bhopal Madhya Pradesh India</p>
+                <p><a href="https://github.com/trick4u" target="_blank">GitHub</a> | <a href="https://dribbble.com/designtranscend" target="_blank">Dribbble</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Profile</h2>
+            <p>Senior Flutter Developer with 5+ years of expertise since Flutter's initial stable release. Proven track record in architecting and delivering high-performance, scalable mobile and web applications. Specialized in advanced state management, complex API integrations, and Firebase implementations. Distinguished for creating battery-efficient applications with comprehensive testing coverage and exceptional user experiences.</p>
+        </section>
+
+        <section>
+            <h2>Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Mobile Development:</strong>
+                    <p>Flutter, Dart, Native Android, Cross-Platform Development</p>
+                </div>
+                <div class="skill-category">
+                    <strong>State Management:</strong>
+                    <p>GetX, Provider, Bloc, Riverpod</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Backend & Database:</strong>
+                    <p>Firebase Suite, RESTful APIs, SQLite, Cloud Firestore</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Architecture:</strong>
+                    <p>MVC, Clean Architecture, SOLID Principles</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Testing & DevOps:</strong>
+                    <p>Unit Testing, Widget Testing, Integration Testing, CI/CD</p>
+                </div>
+                <div class="skill-category">
+                    <strong>UI/UX:</strong>
+                    <p>Custom Animations, Material Design, Responsive Layouts</p>
+                </div>
+                <div class="skill-category">
+                    <strong>Tools:</strong>
+                    <p>Git, Android Studio, VS Code, Firebase Console, Jira</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Assistant Manager Flutter - VenturaSecurities</span>
+                    <span>June 2022 – October 2024 | Thane, India</span>
+                </div>
+                <p>Led the development of critical financial modules for both mobile and web platforms, significantly enhancing the company's digital offerings.</p>
+                <p><strong>Key Achievements:</strong></p>
+                <ul>
+                    <li>Developed F&O Market Watch with real-time data updates and a user-friendly interface</li>
+                    <li>Engineered an F&O Contract management system, streamlining operations</li>
+                    <li>Created and launched an IPO module for streamlined application processes</li>
+                    <li>Implemented a secure Wallet Integration system for transaction management</li>
+                    <li>Spearheaded the development of Flutter Web components, ensuring cross-platform consistency</li>
+                    <li>Implemented reusable components, improving development efficiency and maintainability</li>
+                    <li>Utilized GetX for efficient state management across applications</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">B.Tech Production - Bharti Vidyapeeth College of Engineering</span>
+                    <span>June 2014 – July 2018 | Pune, India</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <div class="experience-item">
+                <p><strong>Flutter Create</strong> - Developed an innovative Flutter app under 5KB, showcasing exceptional code optimization skills.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">goalKeep - Planner App</span>
+                    <span>September 2024 – November 2024</span>
+                </div>
+                <ul>
+                    <li>Developing a feature-rich planner app using Flutter and Firebase</li>
+                    <li>Implementing advanced state management using GetX for optimal performance</li>
+                    <li>Integrating robust authentication system with Firebase</li>
+                    <li>Utilizing Cloud Firestore for efficient data management and real-time synchronization</li>
+                    <li>Implementing image compression and Firebase Storage for media management</li>
+                    <li>Developing a custom calendar view with event management capabilities</li>
+                    <li>Creating an intuitive statistics page with interactive graphs and data visualization</li>
+                    <li>Implementing daily notifications to enhance user engagement</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests</h2>
+            <p><strong>Unity Game Development</strong> - Spent over 2 years during engineering studies learning Unity game engine. Used VS Code as the editor and learned game development through YouTube channels including Brackeys, jimmyVegas, and N3K EN. Familiar with physics objects, inspector tool, and time.deltaTime.</p>
+        </section>
+    </div>
+</body>
+</html>
